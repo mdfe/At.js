@@ -356,6 +356,7 @@ App = (function() {
         if (view.highlighted()) {
           e.preventDefault();
           view.choose(e);
+          return false;
         } else {
           view.hide(e);
         }
