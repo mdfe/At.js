@@ -100,5 +100,5 @@ gulp.task('test', function () {
 });
 
 gulp.task('compile', ['coffee', 'umd', 'concat']);
-gulp.task('default', ['compile', 'bump', 'mark', 'compress']);
-gulp.task('build', ['compile', 'bump', 'mark', 'concat','compress']);
+gulp.task('default', ['compile', 'bump', 'mark']);
+gulp.task('build', ['compile', 'bump', 'mark','compress']);
